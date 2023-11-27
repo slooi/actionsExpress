@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx app.ts"
+    "dev": "tsx entry.ts"
   },
   "author": "",
   "license": "ISC",
