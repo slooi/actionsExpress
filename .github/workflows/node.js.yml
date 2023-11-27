@@ -20,3 +20,11 @@ jobs:
         node-version: 18
     - run: npm i
     - run: npm run test
+
+
+    - name: Archive code coverage results
+      uses: actions/upload-artifact@v3
+      with: 
+        name: my-artifact
+        path: coverage/lcov-report/*
+        retention-days: 1
